@@ -1,0 +1,74 @@
+.\" -*- nroff -*-
+.\"
+.\" ZBLAST v1.0 - shoot the thingies for Linux + VGA.
+.\" Copyright (C) 1993, 1994 Russell Marks.
+.\"
+.\" This program is free software; you can redistribute it and/or modify
+.\" it under the terms of the GNU General Public License as published by
+.\" the Free Software Foundation; either version 2 of the License, or (at
+.\" your option) any later version.
+.\"
+.\" This program is distributed in the hope that it will be useful, but
+.\" WITHOUT ANY WARRANTY; without even the implied warranty of
+.\" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+.\" General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License
+.\" along with this program; if not, write to the Free Software
+.\" Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+.\"
+.\"
+.\" zblast.6 - nroff -man source for zblast man page.
+.\"
+.\"
+.\"
+.TH ZBLAST 1 "24th October, 1994" "Version 1.0" "Games"
+.\"
+.\"------------------------------------------------------------------
+.\"
+.SH NAME
+zblast \- blast the bad guys on VGA displays
+.\"
+.\"------------------------------------------------------------------
+.\"
+.SH SYNOPSIS
+.B zblast
+.\"
+.\"------------------------------------------------------------------
+.\"
+.SH DESCRIPTION
+Zblast is a shoot-'em-up.
+.SH GAMEPLAY
+The idea is this: Shoot everything. The whole lot. No messing. Your
+ship is at the bottom of the screen (the funny-looking green
+thing). You can move left, right, up and down within the lower half of
+the screen. You can shoot (two shots at a time). You can also shoot a
+kind-of wave of shots (described hereon in as a PDC, or Power
+DisCharge - tacky eh?) to help satisfy your genocidal tendancies. The
+PDCs are in limited supply, the standard shots are not. When the bad
+guys explode, the green bits that fly in different directions aren't
+harmful. Neither are the 'stars' (uh, dots) in the background. Just
+about everything else is. When your ship is blue however, it cannot be
+harmed. This happens whenever you have just lost energy, i.e. when
+you've just been hit. You start with 20 energy points. If you lose no
+energy in a wave you get 10 extra energy points; if you lose less than
+ten energy points in a wave you get an extra PDC. There are additional
+bonuses for finishing levels (a level is a group of five waves). If
+you run out of energy points the game is over.
+.PP
+Your score is shown at the top left of the screen. Your energy left
+and PDCs left are shown in the top right.
+.SH KEYS
+Cursor keys move up/down/left/right. Space fires. Enter fires a PDC. S
+toggles sound on/off. P pauses. Esc quits the game.
+.SH BUGS
+The game frequently slows down, and the sound starts breaking up,
+rather badly in parts. There are currently 26 waves (which equates to
+just over five levels). This is far too few and it's way too easy to
+finish. There's no high-score table. Nothing special happens when you
+finish. A few events (like firing a PDC) are silent. The sounds aren't
+up to much. (You can use different ones if you want - they're 8-bit
+mono 8kHz unsigned samples.) These things will be fixed whenever I get
+the time.
+.SH AUTHOR
+Russell Marks (mr216@gre.ac.uk)

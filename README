@@ -1,0 +1,38 @@
+ZBLAST v1.0 - shoot the thingies for Linux + VGA.
+Copyright (C) 1993, 1994 Russell Marks.
+
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or (at
+your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+
+This is a Linux port of a game I wrote for MS-DOS (yuck) late last
+year. The Linux version is much better, mainly because it has sound.
+Bear in mind that you must have Voxware v3 (i.e. a recent kernel) to
+have sound - if there's a file /usr/src/linux/drivers/sound/Readme.v30
+on your system, you've got it.
+
+You need svgalib and the rawkey library v0.2 to compile zblast. (A
+pre-compiled copy of the rawkey library is included.) Zblast only
+supports sound on real soundcards - sorry, but /dev/pcsp won't work.
+
+If anyone wants to try adding new levels (there isn't many at the
+moment), have a look at levels.c and mail me if you get some together.
+
+Other than that, 'make install' is the next step, then read the man
+page, then run zblast and hammer that space bar!
+
+
+Have fun,
+- Russell Marks (mr216@gre.ac.uk).
